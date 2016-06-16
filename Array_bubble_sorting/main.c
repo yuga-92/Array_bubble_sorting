@@ -10,7 +10,7 @@
 
 int main(int argc, const char * argv[]) {
     
-    int arr1 [] = {1,5,3,7,4,23,55,9, 0, 55};
+    int arr1 [] = {1,5,3,7,4,23,55,9, 13, 55};
     for (int i =0; i < (sizeof(arr1)/sizeof(arr1[0])); i++){
         printf("%d ", arr1[i]);
     }
